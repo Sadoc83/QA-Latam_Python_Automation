@@ -42,8 +42,10 @@ class TestUrbanRoutes:
 
     # Pedir 2 helados
     def test_order_2_ice_creams(self):
-        # Agregar en S9
-        pass
+        for i in range(2):
+            # Bucle for, que se repite 2 veces
+            # Agregar en S9
+            pass
 
     # Verificar que aparece el modal para buscar un taxi
     def test_car_search_model_appears(self):
