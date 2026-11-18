@@ -1,6 +1,14 @@
+import helpers
 import data
 
 class TestUrbanRoutes:
+
+    @classmethod
+    def setup_class(cls):
+        if helpers.is_url_reachable(data.URBAN_ROUTES_URL):
+            print("Conectado al servidor de Urban Routes")
+        else:
+            print("No se puede conectar a Urban Routes, verifica que el servidor esté encendido.")
 
     # Configurar la dirección de origen y destino
     def test_urban_routes(self):

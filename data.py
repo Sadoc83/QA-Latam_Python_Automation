@@ -4,7 +4,8 @@
 # para indicar que son valores fijos de configuración que no deben alterarse durante la ejecución de la
 # prueba.
 
-URBAN_ROUTES_URL = ''
+URBAN_ROUTES_URL = 'https://cnt-ca6221f9-885e-4995-bcca-11ac536a5dde.containerhub.tripleten-services.com/'
+                    # Url obtenida al iniciar servidor
 
 ADDRESS_FROM = 'East 2nd Street, 601'
 ADDRESS_TO = '1300 1st St'
